@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nicoly Meira",
+      "email": "nicoly.meira@mox.com"
+    },
+    {
+      "id": 2,
+      "name": "Pedro Zorzete",
+      "email": "pedro.zorzete@mox.com"
+    }
+  ],
+"games": [
+    {
+      "id": 1,
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "genre": "Action-adventure"
+    },
+    {
+      "id": 2,
+      "title": "Super Mario Odyssey",
+      "genre": "Platform"
+    },
+    {
+      "id": 3,
+      "title": "Red Dead Redemption 2",
+      "genre": "Action-adventure"
+    },
+    {
+      "id": 4,
+      "title": "The Last of Us Part II",
+      "genre": "Action-adventure"
+    },
+    {
+      "id": 5,
+      "title": "God of War (2018)",
+      "genre": "Action-adventure"
+    },
+    {
+      "id": 6,
+      "title": "Cyberpunk 2077",
+      "genre": "RPG"
+    },
+    {
+      "id": 7,
+      "title": "Elden Ring",
+      "genre": "Action RPG"
+    },
+    {
+      "id": 8,
+      "title": "Hollow Knight",
+      "genre": "Metroidvania"
+    },
+    {
+      "id": 9,
+      "title": "Stardew Valley",
+      "genre": "Simulation"
+    },
+    {
+      "id": 10,
+      "title": "Grand Theft Auto V",
+      "genre": "Action-adventure"
+    }
+  ]
+}
