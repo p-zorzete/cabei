@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Cabei",
+    "slug": "cabei",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#10131f"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.pedrozorzete.cabei"
+    }
+  }
+}

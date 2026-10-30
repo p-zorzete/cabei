@@ -1,13 +1,5 @@
-import { Typography } from "antd";
+import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 
-function App() {
-  return (
-    <div style={{padding: 24}}>
-      <Typography.Title>
-        Cabei - Sua biblioteca de jogos
-      </Typography.Title>
-    </div>
-  )
+export default function App() {
+  return <ExpoStatusBar style="auto" />;
 }
-
-export default App;
