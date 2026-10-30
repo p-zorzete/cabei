@@ -1,20 +1,46 @@
-# 🎮 Cabei
+# Cabei
 
-**Cabei** é um gerenciador pessoal de jogos que ajuda você a organizar sua jornada gamer. 
-Diferente de planilhas ou listas soltas, aqui você consegue ver rapidamente o que já zerou, 
-o que está jogando no momento e o que está naquela lista infinita de "quero jogar um dia".
+**Cabei** é um gerenciador pessoal de jogos para organizar sua jornada gamer. O projeto está em desenvolvimento e usa Expo, React Native e TypeScript.
 
-Projeto criado para estudo e desenvolvimento na área do desenvolvimento front-end.
+## Pré-requisitos
 
-> 🚧 **Status do projeto:** Em desenvolvimento inicial - foco na criação das telas front-end com dados mockados.
+- Node.js em uma versão LTS compatível com o Expo.
+- npm (instalado junto com o Node.js).
+- Para executar no Android, escolha uma das opções:
+  - **Emulador:** Android Studio instalado e um dispositivo virtual Android criado e iniciado.
+  - **Dispositivo físico:** aplicativo Expo Go instalado no celular. O computador e o celular devem estar na mesma rede local.
 
-## 🛠️ Stack do projeto
+## Instalação
 
-| Ferramenta | O que faz |
-| :--- | :--- |
-| React 18 | Biblioteca principal |
-| TypeScript | Tipagem estática |
-| Vite | Build rápido |
-| Ant Design | Componentes UI prontos |
-| JSON Server | API mockada para testes |
-| MVVM | Arquitetura (Model-View-ViewModel) |
+Na pasta do projeto, instale as dependências:
+
+```bash
+npm install
+```
+
+## Executar no Android
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+npx expo start
+```
+
+- **Emulador Android:** com o emulador aberto, pressione `a` no terminal do Expo. Também é possível iniciar diretamente com `npm run android`.
+- **Expo Go:** abra o Expo Go no celular e leia o QR code exibido no terminal. Se a conexão pela rede local não funcionar, inicie com `npx expo start --tunnel`.
+
+## Outros comandos
+
+```bash
+npm start         # Inicia o servidor de desenvolvimento do Expo
+npm run android   # Inicia o Expo e tenta abrir no emulador Android
+npm run ios       # Inicia o Expo e tenta abrir no simulador iOS (macOS)
+npm run lint      # Verifica problemas de lint
+```
+
+## Stack
+
+- [Expo](https://expo.dev/)
+- [React Native](https://reactnative.dev/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
